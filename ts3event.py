@@ -42,8 +42,8 @@ class TS3EventHnd:
         EventHTML = TS3_Event(3*czas.MIN, event_HTML, True, "Tworzenie strony HTML")
         self.ListaEventow.append(EventHTML)
         
-        EventMSG = TS3_Event(czas.GODZ, event_Info, True, "Cykliczna informacja globalna")
-        self.ListaEventow.append(EventMSG)
+        #EventMSG = TS3_Event(czas.GODZ, event_Info, True, "Cykliczna informacja globalna")
+        #self.ListaEventow.append(EventMSG)
         
     def sprawdz_eventy(self, TS3):
         

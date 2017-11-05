@@ -80,6 +80,14 @@ def random_link_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     
     Query.wiadomosc("[url=" + link + "]Internety " + info + "[/url]")
     
+def cycki_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
+    plik = open("cycki.txt")
+    linki = plik.readLines()
+    liczba = random.randint(0, len(linki))
+    link = linki[liczba].replace("\n", "")
+    
+    Query.wiadomosc("[url=" + link + "]Cycki C:[/url]")
+    
 def odlicz_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     NowyEvent = ts3event.TS3_Event(float(KomSplit[1]), ts3event.event_Odliczanie, False, KomSplit[2])
     Eventy.dodaj_event(NowyEvent)
@@ -154,6 +162,7 @@ class CmdHandler:
         KomList.append(Komenda(random_link_hnd, [usrkom.randLink], STR_HELP_STD, []))
         KomList.append(Komenda(rosyjska_rul_hnd, [usrkom.rosyjska], STR_HELP_STD, []))
         KomList.append(Komenda(przeladuj_hnd, [usrkom.przeladuj], STR_HELP_STD, []))
+        
         
         return KomList
         

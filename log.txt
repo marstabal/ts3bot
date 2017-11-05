@@ -4451,4 +4451,937 @@ MM\s-\sil.\sminut
 2017-06-20 16:20:39.222343 - <<:clid=2 cid=1 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=3 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s217.99.168.177:52586 client_type=1|clid=7 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s217.99.168.177:52589 client_type=1|clid=8 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s217.99.168.177:52583 client_type=1|clid=9 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s217.99.168.177:52590 client_type=1
 
 2017-06-20 16:20:39.588368 - >>:serverinfo
-2017-06-20 16:20:39.879581 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver
+2017-06-20 16:20:39.879581 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver----------------
+2017-07-02 12:54:25.198342 - Inicjalizacja
+2017-07-02 12:54:25.198365 - Query - INICJALIZACJA EVENTOW
+2017-07-02 12:54:25.198401 - Query - INIT
+2017-07-02 12:54:25.198413 - TS3IO - INIT
+2017-07-02 12:54:25.428557 - <<:TS3
+
+2017-07-02 12:54:25.501055 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+----------------
+2017-07-02 12:55:38.563851 - Inicjalizacja
+2017-07-02 12:55:38.563885 - Query - INICJALIZACJA EVENTOW
+2017-07-02 12:55:38.563941 - Query - INIT
+2017-07-02 12:55:38.563961 - TS3IO - INIT
+2017-07-02 12:55:39.203521 - <<:TS3
+
+2017-07-02 12:55:39.274818 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 12:55:39.295288 - Przygotowanie sesji
+2017-07-02 12:55:39.295382 - >>:login serveradmin Martini123
+2017-07-02 12:55:39.414021 - <<:error id=0 msg=ok
+
+2017-07-02 12:55:39.424291 - >>:use 1
+2017-07-02 12:55:39.498510 - <<:error id=0 msg=ok
+
+2017-07-02 12:55:39.508784 - >>:servernotifyregister event=textserver
+2017-07-02 12:55:39.618692 - <<:error id=0 msg=ok
+
+2017-07-02 12:55:39.628951 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 12:55:40.630324 - <<:
+2017-07-02 12:55:48.537919 - <<:notifytextmessage targetmode=3 msg=!stopBot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:55:49.559560 - <<:
+2017-07-02 12:55:52.122635 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:55:52.122719 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 12:55:52.122742 - Query - ZAKONCZENIE
+2017-07-02 12:55:52.122759 - >>:!stopbot
+2017-07-02 12:55:52.224937 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 12:56:28.788671 - Inicjalizacja
+2017-07-02 12:56:28.788703 - Query - INICJALIZACJA EVENTOW
+2017-07-02 12:56:28.788755 - Query - INIT
+2017-07-02 12:56:28.788774 - TS3IO - INIT
+2017-07-02 12:56:29.269508 - <<:TS3
+
+2017-07-02 12:56:29.342266 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 12:56:29.362792 - Przygotowanie sesji
+2017-07-02 12:56:29.363013 - >>:login serveradmin Martini123
+2017-07-02 12:56:29.435245 - <<:error id=0 msg=ok
+
+2017-07-02 12:56:29.445514 - >>:use 1
+2017-07-02 12:56:29.518542 - <<:error id=0 msg=ok
+
+2017-07-02 12:56:29.528771 - >>:servernotifyregister event=textserver
+2017-07-02 12:56:29.602723 - <<:error id=0 msg=ok
+
+2017-07-02 12:56:29.612959 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 12:56:30.614252 - <<:
+2017-07-02 12:56:39.639464 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:56:39.639694 - Serwer: https://www.youtube.com/watch?v=eDxa2tmbhSg|||BH
+
+2017-07-02 12:56:39.639725 - >>:gm msg=https://www.youtube.com/watch?v=eDxa2tmbhSg|||BH
+
+2017-07-02 12:56:39.874099 - <<:error id=0 msg=ok
+
+2017-07-02 12:56:40.895587 - <<:
+2017-07-02 12:57:54.191473 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:57:54.191550 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 12:57:54.191570 - Query - ZAKONCZENIE
+2017-07-02 12:57:54.191586 - >>:!stopbot
+2017-07-02 12:57:54.283553 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 12:57:58.539929 - Inicjalizacja
+2017-07-02 12:57:58.539963 - Query - INICJALIZACJA EVENTOW
+2017-07-02 12:57:58.540023 - Query - INIT
+2017-07-02 12:57:58.540043 - TS3IO - INIT
+2017-07-02 12:57:58.773080 - <<:TS3
+
+2017-07-02 12:57:58.843997 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 12:57:58.864382 - Przygotowanie sesji
+2017-07-02 12:57:58.864434 - >>:login serveradmin Martini123
+2017-07-02 12:57:58.936146 - <<:error id=0 msg=ok
+
+2017-07-02 12:57:58.946276 - >>:use 1
+2017-07-02 12:57:59.019484 - <<:error id=0 msg=ok
+
+2017-07-02 12:57:59.029636 - >>:servernotifyregister event=textserver
+2017-07-02 12:57:59.101575 - <<:error id=0 msg=ok
+
+2017-07-02 12:57:59.111800 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 12:58:00.113109 - <<:
+2017-07-02 12:58:03.203959 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:58:03.204210 - Serwer: [url]https://www.youtube.com/watch?v=z_HIt3ZH9BM
+[//url]
+2017-07-02 12:58:03.204248 - >>:gm msg=[url]https://www.youtube.com/watch?v=z_HIt3ZH9BM
+[//url]
+2017-07-02 12:58:03.387290 - <<:error id=0 msg=ok
+
+2017-07-02 12:58:03.407796 - <<:error id=256 msg=command\snot\sfound
+
+2017-07-02 12:58:04.429458 - <<:
+2017-07-02 12:59:08.335002 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 12:59:08.335087 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 12:59:08.335108 - Query - ZAKONCZENIE
+2017-07-02 12:59:08.335125 - >>:!stopbot
+2017-07-02 12:59:08.443477 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 13:00:23.541084 - Inicjalizacja
+2017-07-02 13:00:23.541125 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:00:23.541191 - Query - INIT
+2017-07-02 13:00:23.541225 - TS3IO - INIT
+2017-07-02 13:00:24.094926 - <<:TS3
+
+2017-07-02 13:00:24.167198 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:00:24.187516 - Przygotowanie sesji
+2017-07-02 13:00:24.187581 - >>:login serveradmin Martini123
+2017-07-02 13:00:24.258943 - <<:error id=0 msg=ok
+
+2017-07-02 13:00:24.269135 - >>:use 1
+2017-07-02 13:00:24.343702 - <<:error id=0 msg=ok
+
+2017-07-02 13:00:24.353970 - >>:servernotifyregister event=textserver
+2017-07-02 13:00:24.427830 - <<:error id=0 msg=ok
+
+2017-07-02 13:00:24.438078 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:00:25.439407 - <<:
+2017-07-02 13:00:27.931634 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:00:27.931878 - Serwer: [url=https://www.youtube.com/watch?v=6yyKc5XmzAM
+]Internety[//url]
+2017-07-02 13:00:27.931918 - >>:gm msg=[url=https://www.youtube.com/watch?v=6yyKc5XmzAM
+]Internety[//url]
+2017-07-02 13:00:28.122062 - <<:error id=0 msg=ok
+
+2017-07-02 13:00:28.142636 - <<:error id=256 msg=command\snot\sfound
+
+2017-07-02 13:00:29.164274 - <<:
+2017-07-02 13:03:24.131868 - >>:clientlist
+2017-07-02 13:03:24.251927 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=7 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33726 client_type=1
+
+2017-07-02 13:03:24.341031 - >>:serverinfo
+2017-07-02 13:03:24.422172 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=2 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=154012 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=257 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=1 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0000 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0000 virtualserver_total_ping=72.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=0 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=75777 connection_bytes_received_speech=8500831 connection_packets_sent_keepalive=54056 connection_bytes_sent_keepalive=2216296 connection_packets_received_keepalive=54035 connection_bytes_received_keepalive=2269405 connection_packets_sent_control=940 connection_bytes_sent_control=118797 connection_packets_received_control=949 connection_bytes_received_control=154548 connection_packets_sent_total=179205 connection_bytes_sent_total=16122764 connection_packets_received_total=130761 connection_bytes_received_total=10924784 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=179
+
+2017-07-02 13:03:25.444603 - <<:
+2017-07-02 13:03:27.424098 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:03:27.424185 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 13:03:27.424207 - Query - ZAKONCZENIE
+2017-07-02 13:03:27.424224 - >>:!stopbot
+2017-07-02 13:03:27.497592 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 13:03:34.263770 - Inicjalizacja
+2017-07-02 13:03:34.263808 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:03:34.263871 - Query - INIT
+2017-07-02 13:03:34.263894 - TS3IO - INIT
+2017-07-02 13:03:34.482367 - <<:TS3
+
+2017-07-02 13:03:34.557024 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:03:34.577362 - Przygotowanie sesji
+2017-07-02 13:03:34.577417 - >>:login serveradmin Martini123
+2017-07-02 13:03:34.659631 - <<:error id=0 msg=ok
+
+2017-07-02 13:03:34.669849 - >>:use 1
+2017-07-02 13:03:34.748747 - <<:error id=0 msg=ok
+
+2017-07-02 13:03:34.759023 - >>:servernotifyregister event=textserver
+2017-07-02 13:03:34.839199 - <<:error id=0 msg=ok
+
+2017-07-02 13:03:34.849434 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:03:35.850764 - <<:
+2017-07-02 13:03:38.381891 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:03:38.382144 - Serwer: [url=https://www.youtube.com/watch?v=Vs2-ianq7Vw]Internety[//url]
+2017-07-02 13:03:38.382180 - >>:gm msg=[url=https://www.youtube.com/watch?v=Vs2-ianq7Vw]Internety[//url]
+2017-07-02 13:03:38.594185 - <<:error id=0 msg=ok
+
+2017-07-02 13:03:39.615763 - <<:
+2017-07-02 13:04:24.260329 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:04:24.260401 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 13:04:24.260419 - Query - ZAKONCZENIE
+2017-07-02 13:04:24.260433 - >>:!stopbot
+2017-07-02 13:04:24.362116 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 13:05:37.904203 - Inicjalizacja
+2017-07-02 13:05:37.904245 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:05:37.904321 - Query - INIT
+2017-07-02 13:05:37.904358 - TS3IO - INIT
+2017-07-02 13:05:39.092165 - <<:TS3
+
+2017-07-02 13:05:39.163152 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:05:39.183763 - Przygotowanie sesji
+2017-07-02 13:05:39.184011 - >>:login serveradmin Martini123
+2017-07-02 13:05:39.255818 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:39.266103 - >>:use 1
+2017-07-02 13:05:39.338756 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:39.348986 - >>:servernotifyregister event=textserver
+2017-07-02 13:05:39.420278 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:39.430518 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:05:40.431925 - <<:
+2017-07-02 13:05:44.137624 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:05:44.137923 - Serwer: [url=https://www.youtube.com/watch?v=QBU1p_QjKgQ]Internety[/url]
+2017-07-02 13:05:44.137962 - >>:gm msg=[url=https://www.youtube.com/watch?v=QBU1p_QjKgQ]Internety[/url]
+2017-07-02 13:05:44.321911 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:45.343609 - <<:
+2017-07-02 13:05:45.729636 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:05:45.729817 - Serwer: [url=https://www.youtube.com/watch?v=dJxj1mou03M]Internety[/url]
+2017-07-02 13:05:45.729842 - >>:gm msg=[url=https://www.youtube.com/watch?v=dJxj1mou03M]Internety[/url]
+2017-07-02 13:05:45.917595 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:46.939284 - <<:
+2017-07-02 13:05:51.613451 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:05:51.613688 - Serwer: [url=https://www.youtube.com/watch?v=g4QkGR0q5Es]Internety[/url]
+2017-07-02 13:05:51.613722 - >>:gm msg=[url=https://www.youtube.com/watch?v=g4QkGR0q5Es]Internety[/url]
+2017-07-02 13:05:52.637095 - <<:error id=0 msg=ok
+
+2017-07-02 13:05:53.658766 - <<:
+2017-07-02 13:08:38.517212 - >>:clientlist
+2017-07-02 13:08:38.592308 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=3 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33740 client_type=1|clid=5 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33741 client_type=1
+
+2017-07-02 13:08:38.853952 - >>:serverinfo
+2017-07-02 13:08:39.005541 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=3 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=154326 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=261 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=2 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0062 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0062 virtualserver_total_ping=71.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=0 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=75811 connection_bytes_received_speech=8504585 connection_packets_sent_keepalive=54684 connection_bytes_sent_keepalive=2242044 connection_packets_received_keepalive=54661 connection_bytes_received_keepalive=2295693 connection_packets_sent_control=982 connection_bytes_sent_control=124532 connection_packets_received_control=991 connection_bytes_received_control=158108 connection_packets_sent_total=179875 connection_bytes_sent_total=16154247 connection_packets_received_total=131463 connection_bytes_received_total=10958386 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=82 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=150
+
+2017-07-02 13:08:40.027980 - <<:
+2017-07-02 13:08:55.741160 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:08:55.741409 - Serwer: [url=https://www.youtube.com/watch?v=L72n5OiKvrY|||H]Internety[/url]
+2017-07-02 13:08:55.741445 - >>:gm msg=[url=https://www.youtube.com/watch?v=L72n5OiKvrY|||H]Internety[/url]
+2017-07-02 13:08:55.937864 - <<:error id=0 msg=ok
+
+2017-07-02 13:08:56.959399 - <<:
+2017-07-02 13:11:39.789748 - >>:clientlist
+2017-07-02 13:11:40.522252 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=3 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33740 client_type=1|clid=5 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33741 client_type=1
+
+2017-07-02 13:11:40.532692 - >>:serverinfo
+2017-07-02 13:11:41.534056 - <<:
+2017-07-02 13:11:44.567633 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=3 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=154508 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 ----------------
+2017-07-02 13:14:57.590573 - Inicjalizacja
+2017-07-02 13:14:57.590593 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:14:57.590629 - Query - INIT
+2017-07-02 13:14:57.590643 - TS3IO - INIT
+2017-07-02 13:14:58.671931 - <<:TS3
+
+2017-07-02 13:14:58.748289 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:14:58.768708 - Przygotowanie sesji
+2017-07-02 13:14:58.768786 - >>:login serveradmin Martini123
+2017-07-02 13:14:58.845668 - <<:error id=0 msg=ok
+
+2017-07-02 13:14:58.855887 - >>:use 1
+2017-07-02 13:14:58.929393 - <<:error id=0 msg=ok
+
+2017-07-02 13:14:58.939638 - >>:servernotifyregister event=textserver
+2017-07-02 13:14:59.011067 - <<:error id=0 msg=ok
+
+2017-07-02 13:14:59.021293 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:15:00.022665 - <<:
+2017-07-02 13:15:01.653023 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:15:15.976628 - Inicjalizacja
+2017-07-02 13:15:15.976648 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:15:15.976690 - Query - INIT
+2017-07-02 13:15:15.976700 - TS3IO - INIT
+2017-07-02 13:15:16.159628 - <<:TS3
+
+2017-07-02 13:15:16.230804 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:15:16.251137 - Przygotowanie sesji
+2017-07-02 13:15:16.251195 - >>:login serveradmin Martini123
+2017-07-02 13:15:16.323095 - <<:error id=0 msg=ok
+
+2017-07-02 13:15:16.333308 - >>:use 1
+2017-07-02 13:15:16.407040 - <<:error id=0 msg=ok
+
+2017-07-02 13:15:16.417209 - >>:servernotifyregister event=textserver
+2017-07-02 13:15:16.489934 - <<:error id=0 msg=ok
+
+2017-07-02 13:15:16.500174 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:15:17.501556 - <<:
+2017-07-02 13:15:20.792048 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:15:20.792304 - Serwer: [url=https://www.youtube.com/watch?v=dJxj1mou03M]Internety [/url]
+2017-07-02 13:15:20.792340 - >>:gm msg=[url=https://www.youtube.com/watch?v=dJxj1mou03M]Internety\s[/url]
+2017-07-02 13:15:21.002607 - <<:error id=0 msg=ok
+
+2017-07-02 13:15:22.024278 - <<:
+2017-07-02 13:15:32.365238 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:15:32.365476 - Serwer: [url=https://www.youtube.com/watch?v=0uZX60akANU]Internety [/url]
+2017-07-02 13:15:32.365510 - >>:gm msg=[url=https://www.youtube.com/watch?v=0uZX60akANU]Internety\s[/url]
+2017-07-02 13:15:32.568499 - <<:error id=0 msg=ok
+
+2017-07-02 13:15:33.590196 - <<:
+2017-07-02 13:16:01.037748 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:16:01.037963 - Serwer: [url=https://www.youtube.com/watch?v=v4IC7qaNr7I]Internety [/url]
+2017-07-02 13:16:01.037994 - >>:gm msg=[url=https://www.youtube.com/watch?v=v4IC7qaNr7I]Internety\s[/url]
+2017-07-02 13:16:01.212588 - <<:error id=0 msg=ok
+
+2017-07-02 13:16:02.234283 - <<:
+2017-07-02 13:16:14.557278 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:16:14.557516 - Serwer: [url=https://www.youtube.com/watch?v=W0Luy1Iouic]Internety (zawiera sladowe ilosci kotow)[/url]
+2017-07-02 13:16:14.557552 - >>:gm msg=[url=https://www.youtube.com/watch?v=W0Luy1Iouic]Internety\s(zawiera\ssladowe\silosci\skotow)[/url]
+2017-07-02 13:16:14.731895 - <<:error id=0 msg=ok
+
+2017-07-02 13:16:15.753582 - <<:
+2017-07-02 13:16:45.484078 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:16:45.484311 - Serwer: [url=https://www.youtube.com/watch?v=MuOvqeABHvQ]Internety [/url]
+2017-07-02 13:16:45.484345 - >>:gm msg=[url=https://www.youtube.com/watch?v=MuOvqeABHvQ]Internety\s[/url]
+2017-07-02 13:16:45.682246 - <<:error id=0 msg=ok
+
+2017-07-02 13:16:46.703939 - <<:
+2017-07-02 13:16:58.078942 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:16:58.079255 - Serwer: [url=https://www.youtube.com/watch?v=f7vq3AC6Ezo]Internety [/url]
+2017-07-02 13:16:58.079309 - >>:gm msg=[url=https://www.youtube.com/watch?v=f7vq3AC6Ezo]Internety\s[/url]
+2017-07-02 13:16:58.261508 - <<:error id=0 msg=ok
+
+2017-07-02 13:16:59.282971 - <<:
+2017-07-02 13:17:31.571245 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:17:31.571498 - Serwer: [url=https://www.youtube.com/watch?v=tBQGHgIp7wc]Internety [/url]
+2017-07-02 13:17:31.571548 - >>:gm msg=[url=https://www.youtube.com/watch?v=tBQGHgIp7wc]Internety\s[/url]
+2017-07-02 13:17:31.769513 - <<:error id=0 msg=ok
+
+2017-07-02 13:17:32.791068 - <<:
+2017-07-02 13:17:49.294439 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:17:49.294725 - Serwer: [url=https://www.youtube.com/watch?v=SxPGGHAfJp4]Internety [/url]
+2017-07-02 13:17:49.294757 - >>:gm msg=[url=https://www.youtube.com/watch?v=SxPGGHAfJp4]Internety\s[/url]
+2017-07-02 13:17:49.486073 - <<:error id=0 msg=ok
+
+2017-07-02 13:17:50.507501 - <<:
+2017-07-02 13:18:00.241518 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:18:00.241751 - Serwer: [url=https://www.youtube.com/watch?v=zLArwzW60k8]Internety [/url]
+2017-07-02 13:18:00.241785 - >>:gm msg=[url=https://www.youtube.com/watch?v=zLArwzW60k8]Internety\s[/url]
+2017-07-02 13:18:00.429851 - <<:error id=0 msg=ok
+
+2017-07-02 13:18:01.451674 - <<:
+2017-07-02 13:18:16.622566 - >>:clientlist
+2017-07-02 13:18:16.727147 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=5 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33741 client_type=1|clid=7 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33745 client_type=1
+
+2017-07-02 13:18:16.839497 - >>:serverinfo
+2017-07-02 13:18:16.914847 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=3 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=154904 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=264 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=2 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0018 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0017 virtualserver_total_ping=70.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=o----------------
+2017-07-02 13:19:44.115895 - Inicjalizacja
+2017-07-02 13:19:44.115938 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:19:44.116013 - Query - INIT
+2017-07-02 13:19:44.116051 - TS3IO - INIT
+2017-07-02 13:19:45.308351 - <<:TS3
+
+2017-07-02 13:19:45.379855 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:19:45.400372 - Przygotowanie sesji
+2017-07-02 13:19:45.400494 - >>:login serveradmin Martini123
+2017-07-02 13:19:45.472095 - <<:error id=0 msg=ok
+
+2017-07-02 13:19:45.482343 - >>:use 1
+2017-07-02 13:19:45.555348 - <<:error id=0 msg=ok
+
+2017-07-02 13:19:45.565582 - >>:servernotifyregister event=textserver
+2017-07-02 13:19:45.639298 - <<:error id=0 msg=ok
+
+2017-07-02 13:19:45.649497 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:19:46.650777 - <<:
+2017-07-02 13:19:48.293170 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:19:48.293420 - Serwer: [url=https://www.youtube.com/watch?v=_X6VoFBCE9k]Internety [/url]
+2017-07-02 13:19:48.293455 - >>:gm msg=[url=https://www.youtube.com/watch?v=_X6VoFBCE9k]Internety\s[/url]
+2017-07-02 13:19:48.474002 - <<:error id=0 msg=ok
+
+2017-07-02 13:19:49.495660 - <<:
+2017-07-02 13:22:44.471180 - >>:clientlist
+2017-07-02 13:22:44.726956 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=5 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33741 client_type=1|clid=7 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33745 client_type=1|clid=9 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33746 client_type=1
+
+2017-07-02 13:22:44.838927 - >>:serverinfo
+2017-07-02 13:22:44.925116 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=4 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=155172 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=265 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=3 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0001 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0001 virtualserver_total_ping=70.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=0 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=76467 connection_bytes_received_speech=8576310 connection_packets_sent_keepalive=56371 connection_bytes_sent_keepalive=2311211 connection_packets_received_keepalive=56347 connection_bytes_received_keepalive=2366501 connection_packets_sent_control=1051 connection_bytes_sent_control=133035 connection_packets_received_control=1060 connection_bytes_received_control=164879 connection_packets_sent_total=181631 connection_bytes_sent_total=16231917 connection_packets_received_total=133874 connection_bytes_received_total=11107690 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=110
+
+2017-07-02 13:22:45.947319 - <<:
+2017-07-02 13:25:44.964301 - >>:clientlist
+2017-07-02 13:25:46.004529 - >>:serverinfo
+2017-07-02 13:25:46.004771 - <<:error id=0 msg=ok
+
+2017-07-02 13:25:50.048539 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=3 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=155353 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtuals
+2017-07-02 13:25:55.096997 - <<:erver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=265 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=2 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0000 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0000 virtualserver_total_ping=71.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=0 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=76467 connection_bytes_received_speech=8576310 connection_packets_sent_keepalive=56734 connection_bytes_sent_keepalive=2326094 connection_packets_received_keepalive=56710 connection_bytes_received_keepalive=2381746 connection_packets_sent_control=1055 connection_bytes_sent_control=133276 connection_packets_received_control=1064 connection_bytes_received_control=165726 connection_packets_sent_total=181998 connection_bytes_sent_total=16247041 connection_packets_received_total=134241 connection_bytes_received_total=11123782 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=87
+
+2017-07-02 13:25:55.107526 - <<:error id=0 msg=ok
+
+2017-07-02 13:25:56.129162 - <<:
+2017-07-02 13:28:47.054594 - >>:clientlist
+2017-07-02 13:28:47.145471 - <<:clid=1 cid=24 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=9 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33746 client_type=1
+
+2017-07-02 13:28:47.227981 - >>:serverinfo
+2017-07-02 13:28:47.307151 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=2 virtualserver_channelsonline=8 virtualserver_created=0 virtualserver_uptime=155535 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=266 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=1 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=0 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=904009 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserv----------------
+2017-07-02 13:47:07.221940 - Inicjalizacja
+2017-07-02 13:47:07.222058 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:47:07.222255 - Query - INIT
+2017-07-02 13:47:07.222332 - TS3IO - INIT
+2017-07-02 13:47:07.970349 - <<:TS3
+
+2017-07-02 13:47:08.149190 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:47:08.169696 - Przygotowanie sesji
+2017-07-02 13:47:08.169817 - >>:login serveradmin Martini123
+2017-07-02 13:47:08.909630 - <<:error id=0 msg=ok
+
+2017-07-02 13:47:08.919883 - >>:use 1
+2017-07-02 13:47:09.058341 - <<:error id=0 msg=ok
+
+2017-07-02 13:47:09.068535 - >>:servernotifyregister event=textserver
+2017-07-02 13:47:09.807464 - <<:error id=0 msg=ok
+
+2017-07-02 13:47:09.817707 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:47:10.819050 - <<:
+2017-07-02 13:47:22.255737 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 13:47:22.255821 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 13:47:22.255844 - Query - ZAKONCZENIE
+2017-07-02 13:47:22.255861 - >>:!stopbot
+2017-07-02 13:47:22.348644 - <<:error id=256 msg=command\snot\sfound
+
+----------------
+2017-07-02 13:48:33.486443 - Inicjalizacja
+2017-07-02 13:48:33.486480 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:48:33.486529 - Query - INIT
+2017-07-02 13:48:33.486557 - TS3IO - INIT
+2017-07-02 13:48:33.894682 - <<:TS3
+
+2017-07-02 13:48:34.047383 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:48:34.067937 - Przygotowanie sesji
+2017-07-02 13:48:34.068060 - >>:login serveradmin Martini123
+2017-07-02 13:48:34.221250 - <<:error id=0 msg=ok
+
+2017-07-02 13:48:34.231504 - >>:use 1
+2017-07-02 13:48:34.385156 - <<:error id=0 msg=ok
+
+2017-07-02 13:48:34.395434 - >>:servernotifyregister event=textserver
+2017-07-02 13:48:34.548302 - <<:error id=0 msg=ok
+
+2017-07-02 13:48:34.558569 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:48:35.559893 - <<:
+2017-07-02 13:48:39.778103 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:49:08.179717 - Inicjalizacja
+2017-07-02 13:49:08.179762 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:49:08.179836 - Query - INIT
+2017-07-02 13:49:08.179863 - TS3IO - INIT
+2017-07-02 13:49:08.503530 - <<:TS3
+
+2017-07-02 13:49:08.647427 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:49:08.667968 - Przygotowanie sesji
+2017-07-02 13:49:08.668090 - >>:login serveradmin Martini123
+2017-07-02 13:49:08.799330 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:08.809623 - >>:use 1
+2017-07-02 13:49:08.935153 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:08.945425 - >>:servernotifyregister event=textserver
+2017-07-02 13:49:09.072712 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:09.082976 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:49:10.084273 - <<:
+2017-07-02 13:49:14.393043 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:49:28.423189 - Inicjalizacja
+2017-07-02 13:49:28.423229 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:49:28.423300 - Query - INIT
+2017-07-02 13:49:28.423325 - TS3IO - INIT
+2017-07-02 13:49:29.175320 - <<:TS3
+
+2017-07-02 13:49:29.301943 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:49:29.322348 - Przygotowanie sesji
+2017-07-02 13:49:29.322420 - >>:login serveradmin Martini123
+2017-07-02 13:49:29.457002 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:29.467209 - >>:use 1
+2017-07-02 13:49:29.573784 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:29.584030 - >>:servernotifyregister event=textserver
+2017-07-02 13:49:29.764487 - <<:error id=0 msg=ok
+
+2017-07-02 13:49:29.774707 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:49:30.775951 - <<:
+2017-07-02 13:49:31.910014 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:50:11.940145 - Inicjalizacja
+2017-07-02 13:50:11.940177 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:50:11.940231 - Query - INIT
+2017-07-02 13:50:11.940249 - TS3IO - INIT
+2017-07-02 13:50:12.414799 - <<:TS3
+
+2017-07-02 13:50:12.592248 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:50:12.612780 - Przygotowanie sesji
+2017-07-02 13:50:12.612883 - >>:login serveradmin Martini123
+2017-07-02 13:50:12.800730 - <<:error id=0 msg=ok
+
+2017-07-02 13:50:12.810924 - >>:use 1
+2017-07-02 13:50:13.001909 - <<:error id=0 msg=ok
+
+2017-07-02 13:50:13.012132 - >>:servernotifyregister event=textserver
+2017-07-02 13:50:13.149840 - <<:error id=0 msg=ok
+
+2017-07-02 13:50:13.160040 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:50:14.161314 - <<:
+2017-07-02 13:50:15.939052 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:53:29.762632 - Inicjalizacja
+2017-07-02 13:53:29.762677 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:53:29.762750 - Query - INIT
+2017-07-02 13:53:29.762793 - TS3IO - INIT
+2017-07-02 13:53:31.017007 - <<:TS3
+
+2017-07-02 13:53:31.160794 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:53:31.181285 - Przygotowanie sesji
+2017-07-02 13:53:31.181374 - >>:login serveradmin Martini123
+2017-07-02 13:53:31.324207 - <<:error id=0 msg=ok
+
+2017-07-02 13:53:31.334455 - >>:use 1
+2017-07-02 13:53:31.479392 - <<:error id=0 msg=ok
+
+2017-07-02 13:53:31.489640 - >>:servernotifyregister event=textserver
+2017-07-02 13:53:31.637568 - <<:error id=0 msg=ok
+
+2017-07-02 13:53:31.647789 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:53:32.649094 - <<:
+2017-07-02 13:53:33.477219 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:54:12.076411 - Inicjalizacja
+2017-07-02 13:54:12.076443 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:54:12.076494 - Query - INIT
+2017-07-02 13:54:12.076512 - TS3IO - INIT
+2017-07-02 13:54:12.729353 - <<:TS3
+
+2017-07-02 13:54:12.858226 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:54:12.878754 - Przygotowanie sesji
+2017-07-02 13:54:12.878875 - >>:login serveradmin Martini123
+2017-07-02 13:54:13.011042 - <<:error id=0 msg=ok
+
+2017-07-02 13:54:13.021288 - >>:use 1
+2017-07-02 13:54:13.152637 - <<:error id=0 msg=ok
+
+2017-07-02 13:54:13.162834 - >>:servernotifyregister event=textserver
+2017-07-02 13:54:13.291732 - <<:error id=0 msg=ok
+
+2017-07-02 13:54:13.301889 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:54:14.303071 - <<:
+2017-07-02 13:54:17.417205 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:55:26.361428 - Inicjalizacja
+2017-07-02 13:55:26.361465 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:55:26.361528 - Query - INIT
+2017-07-02 13:55:26.361551 - TS3IO - INIT
+2017-07-02 13:55:27.441874 - <<:TS3
+
+2017-07-02 13:55:27.512843 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:55:27.533347 - Przygotowanie sesji
+2017-07-02 13:55:27.533468 - >>:login serveradmin Martini123
+2017-07-02 13:55:27.606098 - <<:error id=0 msg=ok
+
+2017-07-02 13:55:27.616339 - >>:use 1
+2017-07-02 13:55:27.692853 - <<:error id=0 msg=ok
+
+2017-07-02 13:55:27.703091 - >>:servernotifyregister event=textserver
+2017-07-02 13:55:27.774386 - <<:error id=0 msg=ok
+
+2017-07-02 13:55:27.784621 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:55:28.785992 - <<:
+2017-07-02 13:55:29.981101 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 13:56:11.790251 - Inicjalizacja
+2017-07-02 13:56:11.790273 - Query - INICJALIZACJA EVENTOW
+2017-07-02 13:56:11.790318 - Query - INIT
+2017-07-02 13:56:11.790328 - TS3IO - INIT
+2017-07-02 13:56:11.984745 - <<:TS3
+
+2017-07-02 13:56:12.055882 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 13:56:12.076324 - Przygotowanie sesji
+2017-07-02 13:56:12.076537 - >>:login serveradmin Martini123
+2017-07-02 13:56:12.148855 - <<:error id=0 msg=ok
+
+2017-07-02 13:56:12.159025 - >>:use 1
+2017-07-02 13:56:12.232721 - <<:error id=0 msg=ok
+
+2017-07-02 13:56:12.242993 - >>:servernotifyregister event=textserver
+2017-07-02 13:56:12.314860 - <<:error id=0 msg=ok
+
+2017-07-02 13:56:12.325124 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 13:56:13.326439 - <<:
+2017-07-02 13:56:14.270630 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+----------------
+2017-07-02 14:02:36.648243 - Inicjalizacja
+2017-07-02 14:02:36.648278 - Query - INICJALIZACJA EVENTOW
+2017-07-02 14:02:36.648340 - Query - INIT
+2017-07-02 14:02:36.648377 - TS3IO - INIT
+2017-07-02 14:02:37.825907 - <<:TS3
+
+2017-07-02 14:02:38.012323 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 14:02:38.032865 - Przygotowanie sesji
+2017-07-02 14:02:38.032959 - >>:login serveradmin Martini123
+2017-07-02 14:02:38.200017 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:38.210255 - >>:use 1
+2017-07-02 14:02:38.377202 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:38.387405 - >>:servernotifyregister event=textserver
+2017-07-02 14:02:38.550713 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:38.560960 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 14:02:39.562307 - <<:
+2017-07-02 14:02:41.974049 - <<:notifytextmessage targetmode=3 msg=!test invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:02:41.974179 - Serwer: HauHau
+2017-07-02 14:02:41.974205 - >>:gm msg=HauHau
+2017-07-02 14:02:42.324581 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:43.346327 - <<:
+2017-07-02 14:02:46.483567 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:02:46.483709 - Serwer: PIZD! UnBeaten trafia do kostnicy!
+2017-07-02 14:02:46.483738 - >>:gm msg=PIZD!\sUnBeaten\strafia\sdo\skostnicy!
+2017-07-02 14:02:46.647029 - >>:clientmove clid=1 cid=10
+2017-07-02 14:02:47.000490 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:48.022048 - <<:
+2017-07-02 14:02:57.546203 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:02:57.546337 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:02:57.546364 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:02:57.896325 - <<:error id=0 msg=ok
+
+2017-07-02 14:02:58.918034 - <<:
+2017-07-02 14:02:59.423541 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:02:59.423682 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:02:59.423712 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:02:59.793339 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:00.814959 - <<:
+2017-07-02 14:03:00.941919 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:03:00.941974 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:03:00.941983 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:03:02.010984 - <<:notifytextmessage targetmode=3 msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie. invokerid=0 invokername=Server
+
+2017-07-02 14:03:02.364004 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:03.385454 - <<:
+2017-07-02 14:03:04.127872 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:03:04.127925 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:03:04.127935 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:03:04.664449 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:05.685955 - <<:
+2017-07-02 14:03:06.968016 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:03:06.968144 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:03:06.968170 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:03:07.303123 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:08.324814 - <<:
+2017-07-02 14:03:09.062611 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:03:09.062757 - Serwer: PIZD! UnBeaten trafia do kostnicy!
+2017-07-02 14:03:09.062786 - >>:gm msg=PIZD!\sUnBeaten\strafia\sdo\skostnicy!
+2017-07-02 14:03:09.243283 - >>:clientmove clid=1 cid=10
+2017-07-02 14:03:09.64----------------
+2017-07-02 14:03:42.820585 - Inicjalizacja
+2017-07-02 14:03:42.820604 - Query - INICJALIZACJA EVENTOW
+2017-07-02 14:03:42.820647 - Query - INIT
+2017-07-02 14:03:42.820656 - TS3IO - INIT
+2017-07-02 14:03:43.089849 - <<:TS3
+
+2017-07-02 14:03:43.161298 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 14:03:43.181662 - Przygotowanie sesji
+2017-07-02 14:03:43.181720 - >>:login serveradmin Martini123
+2017-07-02 14:03:43.253853 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:43.264110 - >>:use 1
+2017-07-02 14:03:43.337964 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:43.348209 - >>:servernotifyregister event=textserver
+2017-07-02 14:03:43.419449 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:43.429688 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 14:03:44.431024 - <<:
+2017-07-02 14:03:45.017044 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:03:45.017183 - Serwer: PIZD! UnBeaten trafia do kostnicy!
+2017-07-02 14:03:45.017212 - >>:gm msg=PIZD!\sUnBeaten\strafia\sdo\skostnicy!
+2017-07-02 14:03:45.088998 - >>:clientmove clid=1 cid=10
+2017-07-02 14:03:45.170757 - Serwer: Rewolwer przeladowany!
+2017-07-02 14:03:45.170817 - >>:gm msg=Rewolwer\sprzeladowany!
+2017-07-02 14:03:45.354618 - <<:notifytextmessage targetmode=3 msg=Rewolwer\sprzeladowany! invokerid=0 invokername=Server
+
+2017-07-02 14:03:45.375290 - <<:error id=0 msg=ok
+
+2017-07-02 14:03:46.396928 - <<:
+2017-07-02 14:04:59.924417 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:04:59.924658 - Serwer: [url=https://www.youtube.com/watch?v=m4luHEVjqKA]Internety [/url]
+2017-07-02 14:04:59.924694 - >>:gm msg=[url=https://www.youtube.com/watch?v=m4luHEVjqKA]Internety\s[/url]
+2017-07-02 14:05:00.584910 - <<:error id=0 msg=ok
+
+2017-07-02 14:05:01.606358 - <<:
+2017-07-02 14:06:43.753164 - >>:clientlist
+2017-07-02 14:06:44.069170 - <<:clid=1 cid=10 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=2 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33765 client_type=1|clid=3 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33766 client_type=1|clid=6 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33768 client_type=1|clid=7 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33769 client_type=1
+
+2017-07-02 14:06:44.245760 - >>:serverinfo
+2017-07-02 14:06:44.452036 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=5 virtualserver_channelsonline=7 virtualserver_created=0 virtualserver_uptime=157811 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=285 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=4 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=11870 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=915879 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0059 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0058 virtualserver_total_ping=131.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=11870 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=76975 connection_bytes_received_speech=8632722 connection_packets_sent_keepalive=61635 connection_bytes_sent_keepalive=2527035 connection_packets_received_keepalive=61599 connection_bytes_received_keepalive=2587065 connection_packets_sent_control=1290 connection_bytes_sent_control=163413 connection_packets_received_control=1299 connection_bytes_received_control=187774 connection_packets_sent_total=187134 connection_bytes_sent_total=16478119 connection_packets_received_total=139873 connection_bytes_received_total=11407561 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=87
+
+2017-07-02 14:06:45.474080 - <<:
+2017-07-02 14:07:11.532920 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:07:11.533163 - Serwer: [url=https://www.youtube.com/watch?v=ZWOkZ_c8vxk]Internety [/url]
+2017-07-02 14:07:11.533198 - >>:gm msg=[url=https://www.youtube.com/watch?v=ZWOkZ_c8vxk]Internety\s[/url]
+2017-07-02 14:07:11.826131 - <<:error id=0 msg=ok
+
+2017-07-02 14:07:12.847074 - <<:
+2017-07-02 14:07:22.580442 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:07:22.580659 - Serwer: [url=https://www.youtube.com/watch?v=yr_Rpk9HR1g]Internety [/url]
+2017-07-02 14:07:22.580691 - >>:gm msg=[url=https://www.youtube.com/watch?v=yr_Rpk9HR1g]Internety\s[/url]
+2017-07-02 14:07:22.907223 - <<:error id=0 msg=ok
+
+2017-07-02 14:07:23.928911 - <<:
+2017-07-02 14:07:31.588168 - <<:notifytextmessage targetmode=3 msg=!internety invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:07:31.588425 - Serwer: [url=https://www.youtube.com/watch?v=u5KQQWlIgGc]Internety [/url]
+2017-07-02 14:07:31.588465 - >>:gm msg=[url=https://www.youtube.com/watch?v=u5KQQWlIgGc]Internety\s[/url]
+2017-07-02 14:07:31.913776 - <<:error id=0 msg=ok
+
+2017-07-02 14:07:32.935453 - <<:
+2017-07-02 14:07:58.005237 - <<:notifytextmessage targetmode=3 msg=!stopbot invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:07:58.005325 - Zwalnianie pamieci. Koniec programu.
+2017-07-02 14:07:58.005348 - Query - ZAKONCZENIE
+2017-07-02 14:07:58.005367 - >>:quit
+2017-07-02 14:07:58.150266 - <<:error id=0 msg=ok
+
+----------------
+2017-07-02 14:08:55.396866 - Inicjalizacja
+2017-07-02 14:08:55.396886 - Query - INICJALIZACJA EVENTOW
+2017-07-02 14:08:55.396920 - Query - INIT
+2017-07-02 14:08:55.396931 - TS3IO - INIT
+2017-07-02 14:08:57.066065 - <<:TS3
+
+----------------
+2017-07-02 14:09:16.052700 - Inicjalizacja
+2017-07-02 14:09:16.052739 - Query - INICJALIZACJA EVENTOW
+2017-07-02 14:09:16.052805 - Query - INIT
+2017-07-02 14:09:16.052830 - TS3IO - INIT
+2017-07-02 14:09:17.137000 - <<:TS3
+
+2017-07-02 14:09:17.208194 - <<:Welcome to the TeamSpeak 3 ServerQuery interface, type "help" for a list of commands and "help <command>" for information on a specific command.
+
+2017-07-02 14:09:17.228649 - Przygotowanie sesji
+2017-07-02 14:09:17.228724 - >>:login serveradmin Martini123
+2017-07-02 14:09:17.301997 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:17.312223 - >>:use 1
+2017-07-02 14:09:17.451879 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:17.462126 - >>:servernotifyregister event=textserver
+2017-07-02 14:09:17.547865 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:17.558086 - Koniec inicjalizacji. Poczatek petli.
+2017-07-02 14:09:18.559436 - <<:
+2017-07-02 14:09:23.205265 - <<:notifytextmessage targetmode=3 msg=!przeladuj invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:23.205437 - Serwer: Rewolwer przeladowany!
+2017-07-02 14:09:23.205469 - >>:gm msg=Rewolwer\sprzeladowany!
+2017-07-02 14:09:23.604778 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:24.626427 - <<:
+2017-07-02 14:09:29.760526 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:29.760671 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:09:29.760702 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:09:30.125566 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:31.147268 - <<:
+2017-07-02 14:09:33.256274 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:33.256419 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:09:33.256450 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:09:33.958053 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:34.979802 - <<:
+2017-07-02 14:09:35.268827 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:35.268975 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:09:35.269006 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:09:35.637422 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:36.659121 - <<:
+2017-07-02 14:09:37.224059 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:37.224207 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:09:37.224237 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:09:38.031366 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:38.898675 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:38.898757 - Serwer: PIZD! UnBeaten trafia do kostnicy!
+2017-07-02 14:09:38.898773 - >>:gm msg=PIZD!\sUnBeaten\strafia\sdo\skostnicy!
+2017-07-02 14:09:39.060925 - >>:clientmove clid=1 cid=10
+2017-07-02 14:09:39.230945 - Serwer: Rewolwer przeladowany!
+2017-07-02 14:09:39.231030 - >>:gm msg=Rewolwer\sprzeladowany!
+2017-07-02 14:09:39.595099 - <<:notifytextmessage targetmode=3 msg=Rewolwer\sprzeladowany! invokerid=0 invokername=Server
+
+2017-07-02 14:09:39.615768 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:40.637349 - <<:
+2017-07-02 14:09:47.374961 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:47.375106 - Serwer: KLIK! UnBeaten ma dzis szczescie.
+2017-07-02 14:09:47.375135 - >>:gm msg=KLIK!\sUnBeaten\sma\sdzis\sszczescie.
+2017-07-02 14:09:48.080755 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:48.737588 - <<:notifytextmessage targetmode=3 msg=!ruletka invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:09:48.737732 - Serwer: PIZD! UnBeaten trafia do kostnicy!
+2017-07-02 14:09:48.737763 - >>:gm msg=PIZD!\sUnBeaten\strafia\sdo\skostnicy!
+2017-07-02 14:09:48.919358 - >>:clientmove clid=1 cid=10
+2017-07-02 14:09:49.111235 - Serwer: Rewolwer przeladowany!
+2017-07-02 14:09:49.111328 - >>:gm msg=Rewolwer\sprzeladowany!
+2017-07-02 14:09:49.454030 - <<:notifytextmessage targetmode=3 msg=Rewolwer\sprzeladowany! invokerid=0 invokername=Server
+
+2017-07-02 14:09:49.474707 - <<:error id=0 msg=ok
+
+2017-07-02 14:09:50.496335 - <<:
+2017-07-02 14:12:16.138575 - >>:clientlist
+2017-07-02 14:12:16.819209 - <<:clid=1 cid=10 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=6 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33768 client_type=1|clid=10 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33772 client_type=1
+
+2017-07-02 14:12:17.830758 - >>:serverinfo
+2017-07-02 14:12:17.833856 - <<:error id=0 msg=ok
+
+2017-07-02 14:12:18.022447 - <<:error id=0 msg=ok
+
+2017-07-02 14:12:19.043981 - <<:
+2017-07-02 14:15:18.059199 - >>:clientlist
+2017-07-02 14:15:18.875592 - <<:clid=1 cid=10 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=10 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33772 client_type=1
+
+2017-07-02 14:15:18.903944 - >>:serverinfo
+2017-07-02 14:15:19.075131 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=2 virtualserver_channelsonline=7 virtualserver_created=0 virtualserver_uptime=158326 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=287 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=1 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=11870 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=915879 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0030 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0030 virtualserver_total_ping=166.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=11870 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=76975 connection_bytes_received_speech=8632722 connection_packets_sent_keepalive=62660 connection_bytes_sent_keepalive=2569060 connection_packets_received_keepalive=62623 connection_bytes_received_keepalive=2630071 connection_packets_sent_control=1350 connection_bytes_sent_control=170370 connection_packets_received_control=1359 connection_bytes_received_control=192672 connection_packets_sent_total=188219 connection_bytes_sent_total=16527101 connection_packets_received_total=140957 connection_bytes_received_total=11455465 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=87
+
+2017-07-02 14:15:20.097476 - <<:
+2017-07-02 14:18:19.113969 - >>:clientlist
+2017-07-02 14:18:19.870298 - <<:clid=1 cid=10 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=10 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33772 client_type=1
+
+2017-07-02 14:18:20.881794 - >>:serverinfo
+2017-07-02 14:18:20.884787 - <<:error id=0 msg=ok
+
+2017-07-02 14:18:21.080228 - <<:error id=0 msg=ok
+
+2017-07-02 14:18:22.102017 - <<:
+2017-07-02 14:21:21.120309 - >>:clientlist
+2017-07-02 14:21:21.492805 - <<:clid=1 cid=10 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=10 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33772 client_type=1
+
+2017-07-02 14:21:22.014624 - >>:serverinfo
+2017-07-02 14:21:22.189978 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=2 virtualserver_channelsonline=7 virtualserver_created=0 virtualserver_uptime=158689 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url virtualserver_hostbanner_gfx_url=https:\/\/i.ytimg.com\/vi\/eayTQ8mQ7UU\/maxresdefault.jpg virtualserver_hostbanner_gfx_interval=0 virtualserver_complain_autoban_count=5 virtualserver_complain_autoban_time=1200 virtualserver_complain_remove_time=3600 virtualserver_min_clients_in_channel_before_forced_silence=100 virtualserver_priority_speaker_dimm_modificator=-18.0000 virtualserver_id=1 virtualserver_antiflood_points_tick_reduce=5 virtualserver_antiflood_points_needed_command_block=150 virtualserver_antiflood_points_needed_ip_block=250 virtualserver_client_connections=8 virtualserver_query_client_connections=288 virtualserver_hostbutton_tooltip virtualserver_hostbutton_url virtualserver_hostbutton_gfx_url virtualserver_queryclientsonline=1 virtualserver_download_quota=18446744073709551615 virtualserver_upload_quota=18446744073709551615 virtualserver_month_bytes_downloaded=11870 virtualserver_month_bytes_uploaded=0 virtualserver_total_bytes_downloaded=915879 virtualserver_total_bytes_uploaded=144757 virtualserver_port=9987 virtualserver_autostart=1 virtualserver_machine_id virtualserver_needed_identity_security_level=8 virtualserver_log_client=1 virtualserver_log_query=1 virtualserver_log_channel=1 virtualserver_log_permissions=1 virtualserver_log_server=1 virtualserver_log_filetransfer=0 virtualserver_min_client_version=1373587200 virtualserver_name_phonetic virtualserver_icon_id=0 virtualserver_reserved_slots=0 virtualserver_total_packetloss_speech=0.0000 virtualserver_total_packetloss_keepalive=0.0015 virtualserver_total_packetloss_control=0.0000 virtualserver_total_packetloss_total=0.0014 virtualserver_total_ping=148.0000 virtualserver_ip virtualserver_weblist_enabled=1 virtualserver_ask_for_privilegekey=0 virtualserver_hostbanner_mode=2 virtualserver_channel_temp_delete_delay_default=0 virtualserver_status=online connection_filetransfer_bandwidth_sent=0 connection_filetransfer_bandwidth_received=0 connection_filetransfer_bytes_sent_total=11870 connection_filetransfer_bytes_received_total=0 connection_packets_sent_speech=124209 connection_bytes_sent_speech=13787671 connection_packets_received_speech=76975 connection_bytes_received_speech=8632722 connection_packets_sent_keepalive=63386 connection_bytes_sent_keepalive=2598826 connection_packets_received_keepalive=63347 connection_bytes_received_keepalive=2660475 connection_packets_sent_control=1359 connection_bytes_sent_control=171318 connection_packets_received_control=1368 connection_bytes_received_control=194409 connection_packets_sent_total=188954 connection_bytes_sent_total=16557815 connection_packets_received_total=141690 connection_bytes_received_total=11487606 connection_bandwidth_sent_last_second_total=81 connection_bandwidth_sent_last_minute_total=81 connection_bandwidth_received_last_second_total=83 connection_bandwidth_received_last_minute_total=87
+
+2017-07-02 14:21:23.212138 - <<:
+2017-07-02 14:22:59.193671 - <<:notifytextmessage targetmode=3 msg=!afk\s10\scycki invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:22:59.193912 - >>:clientedit clid=1 client_description=Jestem\sAFK\sdo:\s\s\s14:32\s\s\s\s\sOpis:\scycki
+2017-07-02 14:23:00.205295 - >>:clientedit clid=1 client_is_talker=no
+2017-07-02 14:23:00.239294 - Serwer: UnBeaten jest AFK do 14:32
+2017-07-02 14:23:00.239344 - >>:gm msg=UnBeaten\sjest\sAFK\sdo\s14:32
+2017-07-02 14:23:00.587249 - <<:notifytextmessage targetmode=3 msg=UnBeaten\sjest\sAFK\sdo\s14:32 invokerid=0 invokername=Server
+
+2017-07-02 14:23:00.944930 - <<:error id=0 msg=ok
+
+2017-07-02 14:23:01.966346 - <<:
+2017-07-02 14:23:09.431516 - <<:notifytextmessage targetmode=3 msg=!jj invokerid=1 invokername=UnBeaten invokeruid=nDTLQ78hj3tSScjImQjaHIQfdWI=
+
+2017-07-02 14:23:09.431624 - >>:clientedit clid=1 client_description=Hehehe
+2017-07-02 14:23:10.443106 - >>:clientedit clid=1 client_is_talker=yes
+2017-07-02 14:23:10.453616 - Serwer: UnBeaten powrocil!
+2017-07-02 14:23:10.453724 - >>:gm msg=UnBeaten\spowrocil!
+2017-07-02 14:23:10.766866 - <<:notifytextmessage targetmode=3 msg=UnBeaten\spowrocil! invokerid=0 invokername=Server
+
+2017-07-02 14:23:10.967707 - <<:error id=0 msg=ok
+
+2017-07-02 14:23:11.989399 - <<:
+2017-07-02 14:24:22.785684 - >>:clientlist
+2017-07-02 14:24:23.366182 - <<:clid=1 cid=22 client_database_id=37 client_nickname=UnBeaten client_type=0|clid=10 cid=1 client_database_id=1 client_nickname=serveradmin\sfrom\s83.22.127.140:33772 client_type=1
+
+2017-07-02 14:24:23.887185 - >>:serverinfo
+2017-07-02 14:24:24.009157 - <<:virtualserver_unique_identifier=mYhUSgZHuZewJmF16DMAAbmkXcU= virtualserver_name=Oddawaj\shajsy\sme\s\\(o.O)\/ virtualserver_welcomemessage=Siema,\sgramy?\n virtualserver_platform=Linux virtualserver_version=3.0.11.4\s[Build:\s1439904634] virtualserver_maxclients=32 virtualserver_password=GhfY0\/WgK4MXE3OSjthAvquPhKk= virtualserver_clientsonline=2 virtualserver_channelsonline=7 virtualserver_created=0 virtualserver_uptime=158871 virtualserver_codec_encryption_mode=0 virtualserver_hostmessage=Ej,\sjak\scoś\sto\sserwer\sdziała\spod\sadresem\sblackys.pl virtualserver_hostmessage_mode=1 virtualserver_filebase=files\/virtualserver_1 virtualserver_default_server_group=7 virtualserver_default_channel_group=7 virtualserver_flag_password=1 virtualserver_default_channel_admin_group=5 virtualserver_max_download_total_bandwidth=18446744073709551615 virtualserver_max_upload_total_bandwidth=18446744073709551615 virtualserver_hostbanner_url 

@@ -1,0 +1,59 @@
+2017-05-17 00:23:48.975725 - Napotkano blad! [Errno 2] No such file or directory: '/var/www/html/ts3.html'
+2017-05-17 01:25:17.010592 - Napotkano blad! name 'Logger' is not defined
+2017-05-17 01:28:56.185329 - Napotkano blad! global name 'datetime' is not defined
+2017-05-17 01:29:37.703720 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:31:36.715233 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:32:38.883413 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:33:00.896014 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:35:47.444299 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:42:37.181609 - Napotkano blad! global name 'HOST' is not defined
+2017-05-17 01:51:16.529490 - Napotkano blad! 'module' object has no attribute 'HOST'
+2017-05-17 01:52:05.107505 - Napotkano blad! name 'kom' is not defined
+2017-05-17 02:10:39.834980 - Napotkano blad! name 'delay' is not defined
+2017-05-17 02:13:16.061677 - Napotkano blad! global name 'time' is not defined
+2017-05-17 02:13:34.619595 - Napotkano blad! global name 'time' is not defined
+2017-05-17 02:15:31.318156 - Napotkano blad! global name 'stale' is not defined
+2017-05-17 02:15:43.767131 - Napotkano blad! global name 'stale' is not defined
+2017-05-17 02:16:04.205397 - Napotkano blad! name 'aktualizuj_strone' is not defined
+2017-05-17 02:18:06.374890 - Napotkano blad! name 'HTMLhandler' is not defined
+2017-05-17 02:22:09.366644 - Napotkano blad! global name 'parametr' is not defined
+2017-05-17 02:25:36.918317 - Napotkano blad! global name 'ODP_NICKNAME' is not defined
+2017-05-21 23:59:48.772149 - Napotkano blad! __init__() takes exactly 4 arguments (2 given)
+2017-05-22 00:02:02.767978 - Napotkano blad! __init__() takes exactly 4 arguments (2 given)
+2017-05-22 00:02:53.708018 - Napotkano blad! global name 'INIT_LINES' is not defined
+2017-05-22 00:03:48.531218 - Napotkano blad! 'module' object has no attribute 'HASLO'
+2017-05-22 00:04:09.302993 - Napotkano blad! global name 'MojLog' is not defined
+2017-05-22 00:12:52.141108 - Napotkano blad! Query instance has no attribute 'wyslij_linie'
+2017-05-22 00:30:11.363152 - Napotkano blad! telnet connection closed
+2017-05-23 15:06:30.876799 - Napotkano blad! [Errno -2] Name or service not known
+2017-05-23 15:12:01.395373 - Napotkano blad! delay() takes exactly 1 argument (0 given)
+2017-05-23 15:16:18.376149 - Napotkano blad! delay() takes exactly 1 argument (0 given)
+2017-05-23 15:17:58.866379 - Napotkano blad! global name 'MojLog' is not defined
+2017-05-23 15:18:46.827587 - Napotkano blad! global name 'TS3_Event' is not defined
+2017-05-23 15:19:40.272968 - Napotkano blad! global name 'TS3' is not defined
+2017-05-23 15:22:38.381322 - Napotkano blad! global name 'TS3' is not defined
+2017-05-23 15:23:28.643448 - Napotkano blad! global name 'TS3' is not defined
+2017-05-23 15:25:52.428858 - Napotkano blad! global name 'TS3' is not defined
+2017-05-23 15:27:19.988037 - Napotkano blad! global name 'PlikHTMLHandler' is not defined
+2017-05-23 15:28:22.395484 - Napotkano blad! Query instance has no attribute 'wyslij_linie'
+2017-05-23 15:28:57.073358 - Napotkano blad! global name 'InOut' is not defined
+2017-05-23 15:29:18.810578 - Napotkano blad! global name 'kom' is not defined
+2017-05-23 15:29:48.522069 - Napotkano blad! global name 'czas' is not defined
+2017-05-23 15:32:43.321398 - Napotkano blad! unsupported operand type(s) for +: 'float' and 'str'
+2017-05-23 15:38:02.844314 - Napotkano blad! __init__() takes exactly 5 arguments (4 given)
+2017-05-23 15:40:22.821613 - Napotkano blad! odnow_event() takes no arguments (1 given)
+2017-05-23 16:12:53.744229 - Napotkano blad! global name 'random' is not defined
+2017-05-24 01:10:49.867107 - Napotkano blad! [Errno -2] Name or service not known
+2017-05-24 01:14:51.034381 - Napotkano blad! na_ts3str() takes exactly 2 arguments (1 given)
+2017-05-24 19:58:29.427985 - Napotkano blad! obsluz_odp() takes exactly 2 arguments (1 given)
+2017-05-24 19:59:28.822895 - Napotkano blad! unbound method sprawdz_eventy() must be called with TS3EventHnd instance as first argument (got nothing instead)
+2017-05-24 20:01:03.261548 - Napotkano blad! global name 'napis' is not defined
+2017-05-24 20:16:20.495497 - Napotkano blad! unbound method wiadomosc() must be called with Query instance as first argument (got str instance instead)
+2017-05-24 20:18:24.742344 - Napotkano blad! global name 'MojLog' is not defined
+2017-05-24 20:19:08.464081 - Napotkano blad! global name 'helper' is not defined
+2017-05-24 20:21:23.572224 - Napotkano blad! global name 'InOut' is not defined
+2017-05-24 20:22:14.083062 - Napotkano blad! global name 'InOut' is not defined
+2017-05-24 20:22:58.026564 - Napotkano blad! global name 'InOut' is not defined
+2017-05-24 20:24:28.154081 - Napotkano blad! global name 'InOut' is not defined
+2017-05-24 20:28:17.702844 - Napotkano blad! TS3EventHnd instance has no attribute 'InOut'
+2017-05-24 20:34:26.343246 - Napotkano blad! global name 'napis' is not defined

@@ -1,32 +1,34 @@
 import datetime
-import random
+#import random
 import stale
 import kom
-import odp
+#import odp
 import czas
 from ts3querry import Query
 from ts3logger import Logger
-from HTMLhandler import PlikHTMLHandler
+#from HTMLhandler import PlikHTMLHandler
+from ts3event import TS3EventHnd
 
-        
-try:
+
+    #try:
     #Init
-    MojLog = Logger()
-    TS3 = Query(MojLog, stale.HOST, stale.PORT)
+MojLog = Logger()
+Eventy = TS3EventHnd(MojLog)
+TS3 = Query(MojLog, stale.HOST, stale.PORT)
+TS3.zaloguj(kom.LOGIN, kom.PASSY)
+
+MojLog.pisz("Koniec inicjalizacji. Poczatek petli.")
+
+while True:
+    if(TS3.obsluz_odp(stale.TIMEOUT, Eventy)):
+        break
+
+    Eventy.sprawdz_eventy(TS3)
     czas.delay()
-    TS3.zaloguj(kom.LOGIN, kom.PASSY)
 
-    MojLog.pisz("URUCHAMIAM PETLE.")
-    while True:
-        if(TS3.obsluz_odp(stale.TIMEOUT)):
-            break
-            
-        TS3.sprawdz_eventy()
-        czas.delay()
-
-    MojLog.pisz("Zamykam BOTa")
-    TS3.zakoncz()
-
+MojLog.pisz("Zwalnianie pamieci. Koniec programu.")
+TS3.zakoncz()
+'''
 except Exception as blad:
     ErrLog = open("errlog.txt", "a")
     if(not MojLog is None):
@@ -37,3 +39,4 @@ except Exception as blad:
                   + str(blad) \
                   + "\n"\
                   )
+'''

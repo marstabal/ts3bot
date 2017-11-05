@@ -14,3 +14,16 @@ LISTA_KLIENTOW = "clientlist"
 INFO_SERWERA = "serverinfo"
 GLOB_MSG = "gm msg="
 MSG = "msg="
+EDYTUJ_KLIENTA = "clientedit "
+CLID = "clid="
+CID = "cid="
+INVOKERID = "invokerid="
+INVOKER_NAME = "invokername="
+OPIS_KLIENTA = "client_description="
+CZY_MOZE_MOWIC = "client_is_talker="
+
+
+YES = "yes"
+NO = "no"
+
+

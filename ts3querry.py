@@ -2,8 +2,12 @@
 import telnetlib
 import stale
 import kom
+import odp
 import czas
+import ts3helper
 import ts3event
+import random
+import ts3cmdhnd
 
 class TS3IO:
 
@@ -19,7 +23,6 @@ class TS3IO:
 
         for x in xrange(self.INIT_LINES):
             self.czytaj_linie()
-        
         
         czas.delay()
 
@@ -43,21 +46,22 @@ class TS3IO:
     def olej_linie(self):
         self.Serwer.read_until(stale.NL, stale.TIMEOUT)
         
-    def na_ts3str(self, napis):
-        return napis.replace(" ", "\\s")
+
 
 class Query:
     
     InOut = None
     MojLog = None
-    ListaEventow = []
+    CmdHnd = None
     
     def __init__(self, _Log, _Host, _Port):
         _Log.pisz("Query - INIT")
         
         self.InOut = TS3IO(_Log, _Host, _Port)
         self.MojLog = _Log
-        self.inicjuj_eventy()
+        self.CmdHnd = ts3cmdhnd.CmdHandler(self.MojLog)
+        czas.delay()
+        
         
     def zaloguj(self, _Login, _Passwd):
         self.MojLog.pisz("Przygotowanie sesji")
@@ -73,68 +77,109 @@ class Query:
         self.InOut.czytaj_linie()
         czas.delay()
     
-    def obsluz_odp(self, Timeout):
+    def obsluz_odp(self, Timeout, Eventy):
         Odp = self.InOut.czytaj_linie()
+        ClientID = -1
+        ClientName = ""
         
         if(Odp != ""):
             if(kom.TIMEOUT in Odp):
                 return True         #Dodac probe reconnecta
             if(kom.WYJDZ in Odp):
                 return True
-
+            if("invokername=Sever" in Odp):
+                return False
+            
             Podzial = Odp.split()
+            
+            for Chunk in Podzial:
+                if kom.INVOKERID in Chunk:
+                    ClientID = ts3helper.na_int(Chunk.replace(kom.INVOKERID, ""))
+                if kom.INVOKER_NAME in Chunk:                          
+                    ClientName = Chunk.replace(kom.INVOKER_NAME, "")
+
             for Chunk in Podzial:
                 if kom.MSG in Chunk:
-                    Temp = Chunk.replace(kom.MSG, "")
-                    self.obsluz_komende(Temp)
+                    strHelp = self.CmdHnd.obsluz_komende(self, \
+                                                         Chunk.replace(kom.MSG, ""), \
+                                                         Eventy,\
+                                                         ClientID,\
+                                                         ClientName)
+                    if not (strHelp is None) and strHelp != stale.STR_OK:
+                        self.wiadomosc(strHelp)
                     czas.delay()
-                    
+                    return False
+                
         return False
     
+    #wyslij wiadomosc globalna
+    def wiadomosc(self, napis):
+        self.MojLog.pisz("Serwer: " + napis)
+        napisTS3 = ts3helper.na_ts3str(napis)
+        self.InOut.wyslij_linie(kom.GLOB_MSG + napisTS3)
+        self.olej_linie()
+    
+    def podaj_liste_uzytkownikow_online(self):
+        ListaKlientow = []
+        
+        self.InOut.wyslij_linie(kom.LISTA_KLIENTOW)
+        Odp = self.InOut.czytaj_linie()
+        self.InOut.olej_linie()
+        
+        OdpSplit = Odp.split("|")
+        
+        for Linia in OdpSplit:
+            Podzial = Linia.split()
+        
+            for Chunk in Podzial:
+
+                if odp.NICKNAME in Chunk:
+                    if stale.ADMIN in Chunk:
+                        break
+                        
+                    ListaKlientow.append( \
+                                    Chunk[len(odp.NICKNAME)+1:])
+                    break
+                    
+        return ListaKlientow
+
+    def podaj_liste_info_serwera(self):
+        ListaInfo = []
+        
+        self.InOut.wyslij_linie(kom.INFO_SERWERA)
+        Odp = self.InOut.czytaj_linie()
+        self.InOut.olej_linie()
+        
+        OdpSplit = Odp.split()
+        
+        for InfoVar in OdpSplit:
+            if("=" in InfoVar):
+                ListaInfo.append(ts3helper.na_str(InfoVar))
+                
+        return ListaInfo
+    
+    def zmien_opis_klienta(self, ClientID, Opis):
+        OpisTS3 = ts3helper.na_ts3str(Opis)
+        
+        self.InOut.wyslij_linie(kom.EDYTUJ_KLIENTA + kom.CLID + str(ClientID) + " " + kom.OPIS_KLIENTA + OpisTS3)
+        self.InOut.olej_linie()
+        czas.delay()
+    
+    def wycisz_klienta(self, ClientID):
+        
+        self.InOut.wyslij_linie(kom.EDYTUJ_KLIENTA + kom.CLID + str(ClientID) + " " + kom.CZY_MOZE_MOWIC + kom.NO)
+        self.InOut.olej_linie()
+        czas.delay()
+        
+    def odcisz_klienta(self, ClientID):
+        self.InOut.wyslij_linie(kom.EDYTUJ_KLIENTA + kom.CLID + str(ClientID) + " " + kom.CZY_MOZE_MOWIC + kom.YES)
+        self.InOut.olej_linie()
+        czas.delay()
+        
+    def olej_linie(self):
+        self.InOut.olej_linie()
     
     def zakoncz(self):
         self.MojLog.pisz("Query - ZAKONCZENIE")
         self.InOut.zakoncz()
-    
-    def obsluz_komende(self, komenda):
         
-        if "!dajGlos" in komenda:
-            self.InOut.wyslij_linie(kom.GLOB_MSG \
-                                + "HauHau")
-        if "!komendy" in komenda:
-            self.InOut.wyslij_linie(kom.GLOB_MSG \
-                                + "Dostepne\\skomendy\\s!dajGlos\\s!K6\\\s")
-            self.InOut.czytaj_linie()
-        if "!K6" in komenda:
-            self.InOut.wyslij_linie(kom.GLOB_MSG \
-                                + "Los\\szdecydowal\\s:\\s" \
-                                + str(random.randint(1,6)))
-        if "!afk" in komenda:
-            self.InOut.wyslij_linie(kom.GLOB_MSG \
-                                + "AFK")
-    
-    def inicjuj_eventy(self):
-        self.MojLog.pisz("Query - INICJALIZACJA EVENTOW")
-        EventHTML = ts3event.TS3_Event(3*czas.MIN, ts3event.event_HTML, True, "Tworzenie strony HTML")
-        self.ListaEventow.append(EventHTML)
-        
-        EventMSG = ts3event.TS3_Event(czas.GODZ, ts3event.event_Info, True, "Cykliczna informacja globalna")
-        self.ListaEventow.append(EventMSG)
-        
-    
-    def sprawdz_eventy(self):
-        
-        if self.ListaEventow.count == 0:
-            return
-        
-        for ObecnyEvent in self.ListaEventow:
-            
-            if ObecnyEvent.czy_przyszedl_czas():
-                ObecnyEvent.przeprowadz_event(self.InOut)
-                
-                if not ObecnyEvent.CzyCykliczny:
-                    self.ListaEventow.remove(ObecnyEvent)
-                else:
-                    ObecnyEvent.odnow_event()
-        
-             

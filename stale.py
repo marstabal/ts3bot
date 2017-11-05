@@ -1,4 +1,4 @@
-#Stale
+#ts3Stale
 
 
 HOST="blackys.pl"
@@ -9,3 +9,5 @@ STD_DELAY = 0.01
 LONG_DELAY = 1
 OKRES_TICKOW = 10
 ADMIN = "serveradmin"
+
+STR_OK = "OK"

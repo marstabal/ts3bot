@@ -162,7 +162,7 @@ class CmdHandler:
         KomList.append(Komenda(random_link_hnd, [usrkom.randLink], STR_HELP_STD, []))
         KomList.append(Komenda(rosyjska_rul_hnd, [usrkom.rosyjska], STR_HELP_STD, []))
         KomList.append(Komenda(przeladuj_hnd, [usrkom.przeladuj], STR_HELP_STD, []))
-        
+        KomList.append(Komenda(cycki_hnd, [usrkom.cycki], STR_HELP_STD, []))        
         
         return KomList
         

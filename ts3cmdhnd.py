@@ -15,6 +15,11 @@ STR_HELP_HELP = "Wpisz !help"
 STR_HELP_KOSTKA = "Poprawna formula kostka: !kostka ## (gdzie ## - ilosc scian)"
 STR_HELP_ODLICZ = "Poprawna formula odlicz: !odlicz ## opis (gdzie ## - ilosc sekund)"
 STR_HELP_JJ = "Wpisz sama komende bez udziwnien :v"
+STR_HELP_STD = "Standardowy tekst pomocy"
+
+PODZIAL_LINKU="|||"
+
+iloscNaboi = -1
 
 
 def dajGlos_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
@@ -56,10 +61,44 @@ def jj_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     
     Query.wiadomosc(ClientName + " powrocil!")
 
+def random_link_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
+    plik = open("linki.txt")
+    linki = plik.readlines()
+    liczba = random.randint(0, len(linki))
+    link = linki[liczba].replace("\n", "")
+    info = ""
+    
+    if PODZIAL_LINKU in linki[liczba]:
+        podzial = linki[liczba].split(PODZIAL_LINKU)
+        link = podzial[0]
+        if "H" in podzial[1]:
+            info = info + "(Uwaga, glosne!)"
+        if "C" in podzial[1]:
+            info = info + "(zawiera sladowe ilosci kotow)"
+        if "B" in podzial[1]:
+            info = info + "(moze spowodowac smierc komorek mozgowych)"
+    
+    Query.wiadomosc("[url=" + link + "]Internety " + info + "[/url]")
+    
 def odlicz_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     NowyEvent = ts3event.TS3_Event(float(KomSplit[1]), ts3event.event_Odliczanie, False, KomSplit[2])
     Eventy.dodaj_event(NowyEvent)
     return stale.STR_OK
+    
+def rosyjska_rul_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
+    global iloscNaboi
+    iloscNaboi = iloscNaboi - 1
+    if iloscNaboi <= 0:
+        Query.wiadomosc("PIZD! " + ClientName + " trafia do kostnicy!")
+        Query.przenies_klienta(ClientID, 10)
+        przeladuj_hnd(Query, KomSplit, Eventy, ClientID, ClientName)
+    else:
+        Query.wiadomosc("KLIK! " + ClientName + " ma dzis szczescie.")
+        
+def przeladuj_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
+    global iloscNaboi
+    iloscNaboi = random.randint(1,6)
+    Query.wiadomosc("Rewolwer przeladowany!")
     
 class Komenda:
     handler = None
@@ -99,8 +138,10 @@ class CmdHandler:
     MojLog = None
     
     def __init__(self, _logger):
+        global counter
         self.Komendy = self.uzupelnij_komendy()
         self.MojLog = _logger
+        iloscNaboi = random.randint(1,6)
         
     def uzupelnij_komendy(self):
         KomList = []
@@ -110,6 +151,9 @@ class CmdHandler:
         KomList.append(Komenda(odlicz_hnd, [usrkom.odlicz], STR_HELP_ODLICZ, ["#", "*"]))
         KomList.append(Komenda(afk_hnd, [usrkom.afk, usrkom.zw], STR_HELP_AFK, ["#", "*"]))
         KomList.append(Komenda(jj_hnd, [usrkom.jj], STR_HELP_JJ, []))
+        KomList.append(Komenda(random_link_hnd, [usrkom.randLink], STR_HELP_STD, []))
+        KomList.append(Komenda(rosyjska_rul_hnd, [usrkom.rosyjska], STR_HELP_STD, []))
+        KomList.append(Komenda(przeladuj_hnd, [usrkom.przeladuj], STR_HELP_STD, []))
         
         return KomList
         

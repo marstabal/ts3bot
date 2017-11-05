@@ -27,6 +27,7 @@ while True:
     czas.delay()
 
 MojLog.pisz("Zwalnianie pamieci. Koniec programu.")
+Query.wiadomosc("Wylaczanie Bota.")
 TS3.zakoncz()
 '''
 except Exception as blad:

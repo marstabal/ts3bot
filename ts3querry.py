@@ -30,7 +30,7 @@ class TS3IO:
         return telnetlib.Telnet(_Host, _Port)
 
     def zakoncz(self):
-        self.wyslij_linie(kom.WYJDZ)
+        self.wyslij_linie(kom.QUIT)
         self.czytaj_linie()
 
     def czytaj_linie(self):
@@ -173,6 +173,11 @@ class Query:
         
     def odcisz_klienta(self, ClientID):
         self.InOut.wyslij_linie(kom.EDYTUJ_KLIENTA + kom.CLID + str(ClientID) + " " + kom.CZY_MOZE_MOWIC + kom.YES)
+        self.InOut.olej_linie()
+        czas.delay()
+        
+    def przenies_klienta(self, ClientID, ChannelID):
+        self.InOut.wyslij_linie(kom.PRZENIES_KLIENTA + kom.CLID + str(ClientID) + " " + kom.CID + str(ChannelID))
         self.InOut.olej_linie()
         czas.delay()
         

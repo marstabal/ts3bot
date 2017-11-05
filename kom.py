@@ -8,6 +8,7 @@ POWIADOMIENIA_GLOB = "servernotifyregister " \
 POWIADOMIENIA_CHANNEL = "servernotifyregister " \
                           + "event=textchannel " \
                           + "cid="
+QUIT = "quit"
 WYJDZ = "!stopbot"
 TIMEOUT = "TIMEOUT"
 LISTA_KLIENTOW = "clientlist"
@@ -15,6 +16,7 @@ INFO_SERWERA = "serverinfo"
 GLOB_MSG = "gm msg="
 MSG = "msg="
 EDYTUJ_KLIENTA = "clientedit "
+PRZENIES_KLIENTA = "clientmove "
 CLID = "clid="
 CID = "cid="
 INVOKERID = "invokerid="

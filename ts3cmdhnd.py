@@ -82,10 +82,10 @@ def random_link_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     
 def cycki_hnd(Query, KomSplit, Eventy, ClientID, ClientName):
     plik = open("cycki.txt")
-    linki = plik.readLines()
+    linki = plik.readlines()
     liczba = random.randint(0, len(linki))
     link = linki[liczba].replace("\n", "")
-    
+
     Query.wiadomosc("[url=" + link + "]Cycki C:[/url]")
     
 def odlicz_hnd(Query, KomSplit, Eventy, ClientID, ClientName):

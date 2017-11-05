@@ -1,0 +1,2 @@
+
+NICKNAME = "client_nickname"
